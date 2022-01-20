@@ -1,5 +1,5 @@
 <template >
-    <nav id="navbar-phone" class=" z-20 bg-black">
+    <nav id="navbar-phone" class="z-20 bg-black">
         <div class="flex flex-wrap items-center h-16 mx-auto justify-evenly">
             <a href="#" >
                 <svg stroke class="w-2/3 mt-2" version="1.1" viewBox="0 10 450 50">
