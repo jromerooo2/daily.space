@@ -6,15 +6,17 @@ import What from './components/Main/What.vue'
 import How from './components/Main/How.vue'
 import Goals from './components/Main/Goals.vue'
 import Footer from './components/Footer.vue'
+import News from './views/News.vue'
 </script>
 
 <template>
   <NavBar />
-    <div class="">
+<!--    <div class="">
       <What />
       <How />
       <Goals />
-    </div>
+    </div> -->
+    <News />
   <Footer />
-</template>
+  </template>
 
