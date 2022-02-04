@@ -1,7 +1,7 @@
 <template >
     <nav id="navbar-phone" class="z-20 bg-black">
         <div class="flex flex-wrap items-center h-16 mx-auto justify-evenly">
-            <a href="#" >
+            <router-link to="/" >
                 <svg stroke class="w-2/3 mt-2" version="1.1" viewBox="0 10 450 50">
                     <title>SpaceX Logo</title>
                     <g class="letter_s">
@@ -30,7 +30,8 @@
                     <path class="fill-white" d="M399,0.7c-80,4.6-117,38.8-125.3,46.9l-1.7,1.6h14.8C326.8,9.1,384.3,2,399,0.7L399,0.7z"></path>
                     </g>
                 </svg>          
-            </a>
+            </router-link >
+
           <button data-collapse-toggle="mobile-menu" type="button" class="hamburguer md:hidden" aria-controls="mobile-menu-2" aria-expanded="false">
 
 
@@ -44,11 +45,11 @@
           <div class="hidden w-full bg-white md:bg-transparent md:block md:w-auto" id="mobile-menu">
             <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
-                <a data-scroll href="#" class="z-50 block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">WHAT?</a>
+                  <router-link to="/" class="z-50 block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">
+                    Home
+                  </router-link>
               </li>
-              <li>
-                  <a data-scroll href="#" class="z-50 block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">HOW?</a>
-              </li>
+
               <li>
                 <router-link to="/news" class="block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">DAILY NEWS</router-link>
               </li>

@@ -1,14 +1,21 @@
 <template>
-  <Home />
-  <div class="container my-3">
-    <router-view />
-  </div>
+	<header>
+      <Navbar />
+	</header>
+	<router-view />
+  <Footer />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import Home from './views/Home.vue'
-export default defineComponent({
-  components: { Home }
-})
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
+export default {
+  name: 'App',
+  components: {
+    Navbar,
+    Footer
+  }
+
+}
 </script>
