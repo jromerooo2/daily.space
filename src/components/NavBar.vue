@@ -51,7 +51,10 @@
               </li>
 
               <li>
-                <router-link to="/news" class="block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">DAIL</router-link>
+                <router-link to="/news" class="block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">APOD</router-link>
+              </li>
+              <li>
+                <router-link to="/news" class="block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">Today News</router-link>
               </li>
             </ul>
           </div>
