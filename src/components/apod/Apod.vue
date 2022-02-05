@@ -1,8 +1,7 @@
-<template>
+<template class="">
       <router-view />
 
     <div class="bg-black p-5 flex flex-col space-y-10">
-
         <div class="md:flex block md:justify-center md:items-center">
             <div class="md:w-1/2 flex-none space-y-4">
                 <h1 class="text-white font-bold text-3xl font-poppins">"{{apod.title}}"</h1>

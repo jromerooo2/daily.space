@@ -1,6 +1,6 @@
 <template>
-  <Navbar />
-	<router-view />
+  <Navbar class="fixed w-full" />
+	<router-view class="mt-5" />
   <Footer />
 </template>
 

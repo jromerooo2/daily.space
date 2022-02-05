@@ -1,6 +1,6 @@
 <template >
-    <div>
-        <h1 class="text-white text-3xl text-center">Not Found</h1>
+    <div class=" flex h-screen justify-center items-center bg-black">
+        <h1 class="text-white text-center font-poppins text-4xl font-bold">Oops, Not Found.</h1>
     </div>
 </template>
 <script>

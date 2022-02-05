@@ -3,9 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  .font-ibm {
+
+.font-ibm {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
   }
-  .font-poppins {
+.font-poppins {
     font-family: 'Poppins', sans-serif;
   }
+  .font-rubik {
+    font-family: 'Rubik', sans-serif;
+  }
+.font-dm {
+    font-family: 'Nunito', sans-serif;
+  }
+.nav-bar{
+  background: rgba( 255, 255, 255, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

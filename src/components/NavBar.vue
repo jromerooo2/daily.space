@@ -1,6 +1,6 @@
 <template >
-    <nav id="navbar-phone" class="z-20 bg-black">
-        <div class="flex flex-wrap items-center h-16 mx-auto justify-evenly">
+    <nav id="navbar-phone" class="">
+        <div class="flex flex-wrap items-center h-16 mx-auto justify-evenly nav-bar">
             <router-link to="/" >
                 <svg stroke class="w-2/3 mt-2" version="1.1" viewBox="0 10 450 50">
                     <title>SpaceX Logo</title>
@@ -45,16 +45,12 @@
           <div class="hidden w-full bg-white md:bg-transparent md:block md:w-auto" id="mobile-menu">
             <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
-                  <router-link to="/" class="z-50 block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">
-                    Home
-                  </router-link>
-              </li>
-
-              <li>
-                <router-link to="/news" class="block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">APOD</router-link>
+                <router-link to="/news" class="font-poppins block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">
+                  APOD
+                </router-link>
               </li>
               <li>
-                <router-link to="/news" class="block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">Today News</router-link>
+                <router-link to="/news" class="font-poppins block py-2 pl-3 pr-4 border-b border-gray-100 link md:text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0">Today News</router-link>
               </li>
             </ul>
           </div>
