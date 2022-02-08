@@ -1,12 +1,12 @@
 <template class="">
       <router-view />
 
-    <div class="bg-black p-5 flex flex-col space-y-10">
-        <div class="md:flex block md:justify-center md:items-center">
-            <div class="md:w-1/2 flex-none space-y-4">
-                <h1 class="text-white font-bold text-3xl font-poppins">"{{apod.title}}"</h1>
-                <h1 class="text-white font-bold font-poppins">Author: {{apod.copyright}}</h1>
-                <p class="text-white text-justify font-ibm">{{apod.explanation}}</p>
+    <div class="flex flex-col p-5 space-y-10 bg-black">
+        <div class="block md:flex md:justify-center md:items-center">
+            <div class="flex-none space-y-4 md:w-1/2">
+                <h1 class="text-3xl font-bold text-white font-poppins">"{{apod.title}}"</h1>
+                <h1 class="font-bold text-white font-poppins">Author: {{apod.copyright}}</h1>
+                <p class="text-justify text-white font-ibm">{{apod.explanation}}</p>
             </div>
             <div class="grow md:w-1/2">
                 <img :src="apod.url" class="p-4 mx-auto" />

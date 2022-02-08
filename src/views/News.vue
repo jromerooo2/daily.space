@@ -1,7 +1,7 @@
 <template>
       <router-view />
     
-    <div class="bg-black p-5 flex flex-col space-y-10">
+    <div class="flex flex-col space-y-10 bg-black md:p-5">
         <Presentation />
         <Apod />
     </div>
