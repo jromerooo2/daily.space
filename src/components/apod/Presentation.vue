@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col items-end justify-center h-screen bg-center bg-no-repeat bg-cover" style="background-image:url(moon2.jpg)">
         <div class="flex flex-col items-center justify-center md:w-1/2">
-            <div class="mx-auto presentation">
+            <div class="p-10 mx-auto presentation">
                 <p class="font-bold text-left text-white font-ibm">APOD</p>
                 <h1 class="text-4xl font-bold text-center text-white font-ibm">
                     Astronomy Picture Of the Day
@@ -25,7 +25,7 @@ export default {
             gsap.from('.presentation', {
                 duration: 2,
                 opacity: 0,
-                x: -300,
+                x: 300,
                 ease: 'power3.out'
             })
         },

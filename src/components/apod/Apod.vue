@@ -1,6 +1,4 @@
-<template class="">
-      <router-view />
-
+<template id="apod" class="">
     <div class="flex flex-col p-5 space-y-10 bg-black">
         <div class="block md:flex md:justify-center md:items-center">
             <div class="flex-none space-y-4 md:w-1/2">
@@ -9,7 +7,7 @@
                 <p class="text-justify text-white font-ibm">{{apod.explanation}}</p>
             </div>
             <div class="grow md:w-1/2">
-                <img :src="apod.url" class="p-4 mx-auto" />
+                <iframe :src="apod.url" class="p-4 mx-auto" />
             </div>
         </div>
     </div>
